@@ -1,0 +1,54 @@
+
+.message{
+background-color: yellow;
+
+color:white;
+
+}
+
+
+.jumbotron{
+  border: 3px solid blue;
+  border-radius: 0px;
+  background-color: limegreen;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media(max-width:767px){
+
+  .box{
+  border: 3px solid red !important;
+
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px){
+
+  .box{
+  border: 3px solid green !important;
+
+  }
+
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media(min-width:992px){
+  .box{
+    border: 3px solid black !important;
+
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media(min-width:1200px){
+
+  .box{
+    border: 3px solid blue !important;
+
+  }
+
+}
